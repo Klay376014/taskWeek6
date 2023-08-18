@@ -1,0 +1,84 @@
+.event-time {
+  img{
+    @media (min-width: 768px) {
+      height: 592px;
+      object-fit: cover;
+    }
+  }
+  h3 {
+    font-size: 24px;
+    @media (min-width: 768px) {
+      font-size: 48px;
+    }
+  }
+  h2 {
+    margin: 0px;
+    font-size: 22px;
+    @media (min-width: 768px) {
+      margin-bottom: 126px;
+      font-size: 48px;
+    }
+  }
+  .date {
+    padding: 14px 24px;
+    @media (min-width: 768px) {
+      padding: 48px 44px;
+    }
+  }
+  .time::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    left: 50%;
+    transform: translateX(-50%) rotate(120deg);
+    background-color: black;
+    @media (min-width: 768px) {
+      width: 100px;
+      height: 2px;
+      top: 50%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    p {
+      font-size: 32px;
+    }
+  }
+}
+
+.meetup{
+  h2{
+    font-size: 32px;
+    line-height: 1.437;
+    @media (min-width: 768px){
+      font-size: 60px;
+    }
+  }
+  p{
+    @media (min-width: 768px){
+      font-size: 22px;
+    }
+  }
+  span{
+    font-size: 14px;
+    border: 1px solid;
+    border-left: 4px solid;
+    line-height: 1.437;
+    @media (min-width: 768px) {
+      font-size: 16px;
+    }
+  }
+}
+
+.ticket-info{
+  tbody{
+    font-size: 14px;
+    @media (min-width: 768px){
+      font-size: 16px;
+    }
+    th{
+      font-weight: normal;
+    }
+  }
+}

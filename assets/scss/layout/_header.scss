@@ -1,0 +1,18 @@
+.navbar{
+  img{
+    width: 40px;
+    height: auto;
+    @media (min-width: 768px){
+      width: 53px;
+    }
+  }
+}
+
+.nav-form{
+  input{
+    width: 168px;
+    @media (min-width: 768px){
+      width: 284px;
+    }
+  }
+}
