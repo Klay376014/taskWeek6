@@ -5,18 +5,19 @@
       object-fit: cover;
     }
   }
-  h3 {
+  .years {
     font-size: 24px;
     @media (min-width: 768px) {
       font-size: 48px;
     }
   }
-  h2 {
+  .month {
     margin: 0px;
     font-size: 22px;
     @media (min-width: 768px) {
       margin-bottom: 126px;
       font-size: 48px;
+      line-height: 58px;
     }
   }
   .date {
@@ -60,15 +61,6 @@
       font-size: 22px;
     }
   }
-  span{
-    font-size: 14px;
-    border: 1px solid;
-    border-left: 4px solid;
-    line-height: 1.437;
-    @media (min-width: 768px) {
-      font-size: 16px;
-    }
-  }
 }
 
 .content{
@@ -84,5 +76,8 @@
     th{
       font-weight: normal;
     }
+  }
+  button:hover{
+    background-color: $primary !important;
   }
 }

@@ -35,7 +35,7 @@
       font-size: 32px;
     }
   }
-  h5{
+  h5 {
     font-size: 18px;
     @media (min-width: 768px) {
       font-size: 24px;
@@ -74,41 +74,41 @@
       font-size: 48px;
     }
   }
-  h5{
+  h5 {
     font-size: 18px;
     @media (min-width: 768px) {
       font-size: 24px;
     }
   }
-  .card-img-top{
+  .card-img-top {
     height: 210px;
     object-fit: cover;
     @media (min-width: 768px) {
       height: 255px;
     }
   }
-  .card-body{
-    p{
+  .card-body {
+    p {
       height: 72px;
     }
   }
-  .card-footer{
-    img{
+  .card-footer {
+    img {
       width: 20px;
       height: 20px;
     }
   }
 }
 
-.modal-header{
-  button{
-    right:12px;
-    top:24px;
+.modal-header {
+  button {
+    right: 12px;
+    top: 24px;
   }
 }
 
-.chatgpt{
-  img{
+.chatgpt {
+  img {
     object-fit: cover;
     object-position: 50% 25%;
     height: 158px;
@@ -116,22 +116,14 @@
       height: 317px;
     }
   }
-  h3{
+  h3 {
     font-size: 18px;
     @media (min-width: 768px) {
       font-size: 32px;
       line-height: 44px;
     }
   }
-  span.badge{
-    font-size: 14px;
-    border: 1px solid;
-    border-left: 4px solid;
-    @media (min-width: 768px) {
-      font-size: 16px;
-    }
-  }
-  button{
+  button {
     cursor: pointer;
     @media (min-width: 768px) {
       font-size: 20px;
@@ -139,10 +131,27 @@
   }
 }
 
-.full-area{
+a.badge {
+  font-size: 14px;
+  border: 1px solid;
+  border-left: 4px solid;
+  @media (min-width: 768px) {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  &:hover {
+    border-left-color: $secondary !important;
+    border-top: none;
+    border-bottom: none;
+    color: #fff !important;
+    background-color: $primary !important;
+  }
+}
+
+.full-area {
   white-space: nowrap;
   overflow-x: clip;
-  p{
+  p {
     @media (min-width: 768px) {
       font-size: 32px;
       letter-spacing: 3.2px;
@@ -173,17 +182,35 @@
   transform: rotate(-4deg);
 }
 
-.dream{
-  h5{
+.dream {
+  h5 {
     font-size: 18px;
     @media (min-width: 768px) {
       font-size: 32px;
     }
   }
-  p{
+  p {
     font-size: 14px;
     @media (min-width: 768px) {
       font-size: 18px;
     }
   }
+}
+
+.follow-us {
+  border:2px solid $primary;
+  @media (min-width: 992px) {
+    border-right: 1px solid;
+  }
+}
+
+.subscribe-us{
+  border:2px solid $primary;
+  @media (min-width: 992px) {
+    border-left: 1px solid;
+  }
+}
+
+button:hover {
+  color: $secondary !important;
 }
